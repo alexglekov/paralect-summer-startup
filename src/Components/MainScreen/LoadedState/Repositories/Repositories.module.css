@@ -1,0 +1,98 @@
+.repositories{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.repositoriesTitle{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.pages{
+    margin: 20px 0;
+}
+
+.pagesItem{
+    border: 1px solid lightgray;
+    border-radius: 100%;
+    padding: 5px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.pag{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 45px 0 0;
+}
+
+.pagination{
+    display: flex;
+    list-style-type: none;
+    padding-left: 23.59px;
+}
+
+.pagination > * + *{
+    margin-left: 20px;
+}
+
+.pageLink{
+    color: #808080;
+    cursor: pointer;
+    width: 17px;
+    height: 20px;
+}
+
+.pageClass{
+    padding-top: 1px;
+}
+
+.stepBtn{
+    color: #0064EB;
+    font-weight: 600;
+    padding-top: 1px;
+    cursor: pointer;
+}
+
+.activeLink{
+    color: white;
+}
+
+.activePage{
+    width: 17px;
+    height: 20px;
+    text-align: center;
+    padding-top: 1px;
+    border-radius: 3px;
+    background-color:#0064EB;
+    cursor: pointer;
+}
+
+.reposAmounDescription{
+    display: inline-block;
+    width: 121px;
+    height: 21px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 14px;
+    color: #808080;
+}
+
+@media (max-width: 768px) {
+    .repositories {
+        align-items: center;
+    }
+    .repositoriesTitle{
+        text-align: center;
+        font-size: 28px;
+    }
+}

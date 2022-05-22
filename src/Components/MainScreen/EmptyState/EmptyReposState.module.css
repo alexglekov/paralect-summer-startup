@@ -1,0 +1,47 @@
+.emptyReposState{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper{
+    width: 100%;
+    height: 717px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.imgText{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 197px;
+}
+
+.img{
+    margin-bottom: 38px;
+    width: 76px;
+    height: 62px;
+    margin-left: 80px;
+}
+
+.text{
+    font-family: 'Inter';
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    color: #808080
+}
+
+@media (max-width: 768px) {
+    .emptyReposState {
+        align-items: center;
+    }
+    .imgText{
+        margin-top: 50px;
+    }
+    .img{
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,78 @@
+.profile{
+    width: 433px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 57px;
+}
+
+.profileAvatar{
+    min-width: 95%;
+    min-height: 95%;
+    border-radius: 1000px;
+}
+
+.profilePic{
+    max-width: 100%;
+    width: 280px;
+    max-height: 100%;
+    height: 280px;
+    border-radius: 1000px;
+}
+
+.profileDescription{
+    width: 100%;
+    height: 100%;
+    margin-top: 29px;
+}
+
+.profileDescriptionFollowWrapper{
+    width: 292.08px;
+    height: 24.24px;
+    display: flex;
+}
+
+.profileDescriptionFollowWrapper > * + *{
+    margin-left: 16px;
+}
+
+.profileDescriptionFollow{
+    display: flex;
+    align-items: center;
+}
+
+.profileDescriptionName{
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.profileDescriptionNick{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    margin-top: 12px;
+    margin-bottom: 25.24px;
+}
+
+.profileDescriptionNickLink{
+    text-decoration: none;
+    color: #0064EB;
+}
+
+.profileDescriptionFollowPic{
+    width: 24px;
+    height: 24px;
+    margin-right: 8.92px;
+}
+
+.profileDescriptionFollowText{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}

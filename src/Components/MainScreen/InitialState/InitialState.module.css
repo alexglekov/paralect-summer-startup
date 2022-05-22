@@ -1,0 +1,33 @@
+.initialState{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper{
+    height: 717px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: #E5E5E5;
+}
+
+.imgText{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 219.92px;
+}
+
+.img{
+    margin-bottom: 20.92px;
+    width: 64.17px;
+    height: 64.17px;
+    margin-left: 70px;
+}
+
+.text{
+    font-family: 'Inter';
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    color: #808080
+}

@@ -1,0 +1,56 @@
+.repositoryItem{
+    max-width: 100%;
+    width: 940px;
+    height: max-content;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    margin-bottom: 24px;
+    padding: 20px 25px;
+}
+
+.repositoryItem:hover{
+    border: 1px solid #0064EB ;
+}
+
+.repositoryItemTitle{
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: #0064EB;
+    margin-bottom: 16px;
+}
+
+.repositoryItemDescription{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter';
+}
+
+.repItemLink{
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+    .repositoryItem {
+        flex: 1;
+        width: 450px;
+    }
+}
+
+@media (max-width: 576px) {
+    .repositoryItem {
+        width: 375px;
+    }
+}
+
+@media (max-width: 400px) {
+    .repositoryItem {
+        width: 300px;
+    }
+}

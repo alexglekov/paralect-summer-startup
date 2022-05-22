@@ -1,0 +1,38 @@
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 717px;
+    background-color: #E5E5E5;
+    position: relative;
+}
+
+
+.loaderWrapper{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    transform: translateY(-50%);
+    border: 2px dashed #0064EB;
+    animation-name: search-fetching;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes search-fetching{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    50%{
+        transform: rotate(360deg) scale(1.3);
+    }
+
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
+}
